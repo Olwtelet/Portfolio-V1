@@ -20,7 +20,7 @@ export default function ContactMenu() {
   if (!mounted) {
     return (
       <div className="w-fit">
-        <span className="w-fit font-bold text-2xl text-theme-700">CONTATO</span>
+        <span className="w-fit font-bold text-2xl text-theme-700">CONTACT</span>
       </div>
     )
   }
