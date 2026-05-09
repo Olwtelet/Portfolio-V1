@@ -23,11 +23,9 @@ export default {
   element: (
     <div
       style={{ fontFamily: '"Golos Text Bold"' }}
-      tw="text-[#00A824] bg-[#E8E8E8] text-5xl w-full h-full flex items-center justify-center rounded-2xl"
+      tw="bg-[#111111] text-[#22c55e] text-[52px] w-full h-full flex items-center justify-center rounded-[10px]"
     >
-      <div tw="flex">
-        M<div tw="text-xl flex mb-auto">2</div>
-      </div>
+      O
     </div>
   )
 } satisfies Icon
