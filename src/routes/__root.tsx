@@ -1,5 +1,4 @@
 /// <reference types="vite/client" />
-
 import { createRootRoute, HeadContent, Outlet, Scripts } from '@tanstack/react-router'
 import type { ReactNode } from 'react'
 import appCss from '@/assets/index.css?url'
@@ -8,7 +7,7 @@ import NotFoundPage from '@/pages/404'
 
 export const Route = createRootRoute({
   head: () => ({
-    title: 'Isaac Rodrigues',
+    title: 'Isaac Rodrigues — Full-Stack AI Engineer',
     meta: [
       {
         charSet: 'utf-8'
@@ -19,23 +18,30 @@ export const Route = createRootRoute({
       },
       {
         name: 'description',
-        content: "Olwtelet's Site"
+        content:
+          'Isaac Rodrigues — Full-Stack AI Engineer building intelligent, scalable, and automation-driven systems. Specializing in AI, Machine Learning, and modern web development.'
       },
       {
         name: 'keywords',
-        content: 'Isaac Rodrigues, Site, Software Engineer, Web Developer, AI Developer'
+        content:
+          'Isaac Rodrigues, Olwtelet, Full-Stack Developer, AI Engineer, Machine Learning, Web Developer, Software Engineer, Next.js, Python, TypeScript, Automation'
       },
       {
         name: 'creator',
         content: 'Isaac Rodrigues'
       },
       {
-        property: 'og:title',
+        name: 'author',
         content: 'Isaac Rodrigues'
       },
       {
+        property: 'og:title',
+        content: 'Isaac Rodrigues — Full-Stack AI Engineer'
+      },
+      {
         property: 'og:description',
-        content: "Olwtelet's site"
+        content:
+          'Building intelligent, scalable, and automation-driven systems. Full-Stack AI Engineer specializing in Machine Learning, NLP, and modern web architecture.'
       },
       {
         property: 'og:site_name',
@@ -54,8 +60,16 @@ export const Route = createRootRoute({
         content: '630'
       },
       {
+        property: 'og:image:alt',
+        content: 'Isaac Rodrigues — Full-Stack AI Engineer'
+      },
+      {
         property: 'og:type',
         content: 'website'
+      },
+      {
+        property: 'og:locale',
+        content: 'en_US'
       },
       {
         name: 'twitter:card',
@@ -63,15 +77,24 @@ export const Route = createRootRoute({
       },
       {
         name: 'twitter:title',
-        content: 'Olwtelet'
+        content: 'Isaac Rodrigues — Full-Stack AI Engineer'
       },
       {
         name: 'twitter:description',
-        content: "Olwtelet's Site"
+        content:
+          'Building intelligent, scalable, and automation-driven systems. Full-Stack AI Engineer specializing in Machine Learning, NLP, and modern web architecture.'
       },
       {
         name: 'twitter:image',
         content: '/opengraph.png?v1'
+      },
+      {
+        name: 'twitter:image:alt',
+        content: 'Isaac Rodrigues — Full-Stack AI Engineer'
+      },
+      {
+        name: 'twitter:creator',
+        content: '@olwtelet'
       }
     ],
     links: [
