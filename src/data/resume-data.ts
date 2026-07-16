@@ -18,7 +18,37 @@ export const RESUME_DATA = {
   ],
   work: [
     {
-      company: 'Freelance Software Engineering',
+      company: 'Integratek',
+      link: 'http://integratek.com.br/',
+      badges: ['Ongoing'],
+      title: 'Full-Stack Developer',
+      start: 'July 2026',
+      end: 'Present',
+      description:
+        'Developed the business website for an IT infrastructure company specializing in networking, structured cabling, CCTV, and access control solutions. Built with Astro and TypeScript, containerized with Docker. Continue to maintain the platform and ship new features.'
+    },
+    {
+      company: 'Casa de Cachorro',
+      link: 'https://casa-de-cachorro.vercel.app/',
+      badges: ['Ongoing'],
+      title: 'Full-Stack Developer',
+      start: 'March 2026',
+      end: 'Present',
+      description:
+        'Engineered a responsive veterinary clinic platform using React, Tailwind CSS, and Framer Motion, featuring online appointment scheduling and a service exploration module.'
+    },
+    {
+      company: 'Instituto Politécnico do Brasil',
+      link: 'https://instituto-politecnico-do-brasil.vercel.app/',
+      badges: ['Ongoing'],
+      title: 'Full-Stack Developer',
+      start: 'January 2026',
+      end: 'Present',
+      description:
+        'Developed the institutional website for a nonprofit operating in education, training, sports, and civic outreach nationwide, presenting its mission, projects, and contact channels.'
+    },
+    {
+      company: 'Terapia de Casais',
       link: 'https://poliana.onrender.com/',
       badges: ['Contract'],
       title: 'Full-Stack Systems Architect',
@@ -27,7 +57,6 @@ export const RESUME_DATA = {
       description:
         'Architected a bespoke clinical platform focused on MVC-based system orchestration, secure data management, and cloud-native deployment for scalable professional applications.'
     }
-    
   ],
 skills: [
     'JavaScript',
@@ -85,16 +114,6 @@ skills: [
   ],
   projects: [
     {
-      title: 'EnPassantio',
-      techStack: ['TypeScript', 'Bun.js', 'Vitest', 'Docker'],
-      description:
-        'Architected a modular chess platform featuring rule-based engine orchestration, real-time multiplayer synchronization, and integration with the Stockfish AI engine.',
-      link: {
-        label: 'EnPassantio',
-        href: 'https://enpassantio.vercel.app/'
-      }
-    },
-    {
       title: 'Resumex',
       techStack: ['Python', 'Selenium', 'MoviePy', 'Cloud-Native'],
       description: 'Designed an intelligent content pipeline for automated Reddit scraping, viral scoring analysis, and AI-driven video generation with cloud-native deployment.',
@@ -104,21 +123,21 @@ skills: [
       }
     },
     {
-      title: 'Obsidian Second Brain',
-      techStack: ['CodeConcepts', 'CS Fundamentals & Data Structures'],
-      description: 'Personal vault of programming insights, cheatsheets, and daily study logs.',
-      link: {
-       label: 'Obsidian Second Brain',
-       href: 'https://github.com/Olwtelet/Obsidian-Second-Brain'
-      }
-    },
-    {
       title: 'AgentForge',
       techStack: ['Python', 'LLMs', 'Multi-Agent Systems', 'RAG'],
       description: 'A hands-on platform to build, test, and benchmark modern AI agent frameworks with real-world examples and multi-agent workflows.',
       link: {
        label: 'View Project',
        href: 'https://github.com/Olwtelet/AgentForge'
+      }
+    },
+    {
+      title: 'Obsidian Second Brain',
+      techStack: ['CodeConcepts', 'CS Fundamentals & Data Structures'],
+      description: 'Personal vault of programming insights, cheatsheets, and daily study logs.',
+      link: {
+       label: 'Obsidian Second Brain',
+       href: 'https://github.com/Olwtelet/Obsidian-Second-Brain'
       }
     },
     {
